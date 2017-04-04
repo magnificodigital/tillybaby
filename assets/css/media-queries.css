@@ -1,0 +1,382 @@
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .navbar-nav {
+        margin-left: -40px;
+    }
+    
+    .bullets:after {
+        margin: 0 10px;
+    }
+    
+    .navbar-nav li a{
+        padding: 0;
+        font-size: 14px;
+        color: #666666;
+    }
+    
+    .navbar-brand img{
+        width: 80%;
+        height: auto;
+    }
+    
+    .bt-area-respresentante{
+        right: 92px;
+    }
+    
+    .footer img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .txt-tilly h3{
+        font-size: 19px;
+        margin-bottom: 50px;
+    }
+    
+    .txt-tilly {
+        font-size: 15px;
+    }
+    
+    .txt_loja_tilly{
+        font-size: 16px;
+    }
+
+    .tit-nome-loja{
+        font-size: 20px;
+    }
+
+    .info-loja{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    
+    .navbar-brand img{
+        width: 60%;
+        height: auto;
+    }
+    
+    .navbar-nav {
+        margin-left: -100px;
+        padding-top: 28px;
+    }
+    
+    .navbar-nav li a{
+        padding: 0;
+        font-size: 11px;
+        color: #666666;
+    }
+    
+    .bullets:after {
+        margin: 0 7px;
+    }
+    
+    .icon-lock{
+        display: none;
+    }
+    
+    .bt-area-respresentante {
+        height: 38px;
+        line-height: 38px;
+        width: 136px;
+        right: 69px;
+    }
+    
+    .redes-sociais{
+        width: 60px;   
+    }
+    
+    .redes-sociais ul li{
+        width: 50%;
+    }
+    
+    .redes-sociais img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer img{
+        width: 100%;
+        height: auto;
+        max-width: 271px;
+        margin: 0 auto;
+    }
+    
+    .copyright{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    
+    .txt-tilly h3{
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    
+    .txt-tilly {
+        font-size: 14px;
+    }
+    
+    .txt_loja_tilly{
+        font-size: 13px;
+    }
+
+    .tit-nome-loja{
+        font-size: 16px;
+    }
+
+    .info-loja{
+        font-size: 12px;
+    }
+
+    .box-info-loja{
+        height: 236px;
+        padding: 35px;
+    }
+
+    .box-txt-news{
+        position: relative;
+        padding-top: 8%;
+    }
+
+    .txt-news{
+        color: #948c87;
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    h2{
+        font-size: 30px;
+    }
+
+    h5{
+        font-size: 14px;
+    }
+
+    #header{
+        height: 100px;
+    }
+    
+    .header {
+        padding-top: 15px;
+        height: auto;
+    }
+    
+    .navbar-nav {
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    
+    .navbar-brand{
+        padding: 0;
+    }
+
+    .navbar-collapse.collapse.in {
+        width: 120%;
+        margin-left: -10%;
+        padding-left: 10%;
+        padding-right: 14%;
+    }
+
+    .navbar-brand{
+        width: 245px;
+    }
+
+    .selected-focus{
+        display: none;
+    }
+    
+    .bt-area-respresentante {
+        position: relative;
+        right: inherit;
+        top: inherit;
+        margin-bottom: 15px;
+        margin-top: 12px;
+    }
+    
+    .redes-sociais{
+        position: relative;
+        right: inherit;
+        top: inherit;
+    }
+
+    .bullets{
+        height: 0 !important;
+        display: none;
+    }
+    
+    .bullets:after {
+        content: ' ';
+    }
+    
+    .navbar-collapse{
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .navbar-nav li{
+        width: 100%;
+        height: 40px;
+    }
+    
+    .navbar-nav li a{
+        width: 100%;
+        height: 40px;
+        color: #666;
+        line-height: 40px;
+        border-bottom: 1px solid #666;
+    }
+
+    .navbar-collapse{
+        background-color: #f1f2f2;
+    }
+
+    .flex-control-paging li a, .flex-control-paging li a.flex-active {
+        height: 33px !important;
+        width: 31px !important;
+    }
+    
+    .footer{
+        text-align: center;
+        padding-bottom: 40px;
+        height: auto;
+    }
+    
+    .footer .bt-area-respresentante .icon-lock{
+           display: inline-block;
+    }
+    
+    .footer .bt-area-respresentante {
+        width: 166px;
+        margin: 20px auto;
+    }
+    
+    .redes-sociais{
+        width: 82px;
+        margin: 0 auto;
+    }
+    
+    .txt-download{
+        width: 334px;
+    }
+    
+    .txt-download p{
+        font-size: 30px;
+        margin-right: 25px;
+    }
+    
+    .txt-download img{
+       width: 30px;
+        height: 30px;
+    }
+    
+    .txt-tilly h3{
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    
+    .txt-tilly {
+        font-size: 14px;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    
+    .txt_loja_tilly{
+        font-size: 13px;
+        margin-top: 24px;
+    }
+    
+    .logo-tilly{
+        width: 250px;
+        margin: 0 auto;
+    }
+    
+    .tilly{
+        padding: 50px 0;
+    }
+
+    .fale-conosco{
+        padding: 10px 0 40px;
+    }
+
+    .form-fale-conosco .select_box{
+        margin: 30px auto 30px auto;
+    }
+
+    .form-fale-conosco .campo {
+        margin-bottom: 15px;
+    }
+
+    .form-fale-conosco .campo textarea {
+        height: 164px;
+    }
+
+    .box-info-loja{
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .lightbox_form{
+        width: 80%;
+        margin-left: -40%;
+        height: 435px;
+    }
+
+    .lightbox_form .bt-enviar{
+        float: inherit;
+    }
+
+    .txt-cadastrese{
+        font-size: 12px;
+        width: 257px;
+    }
+
+    .logo-lightbox-cadastro{
+        display: none;
+    }
+
+    .txt-cadastrese{
+        margin-top: 40px;
+    }
+
+    .newsleter{
+        padding: 14px 0;
+    }
+
+    .tilly {
+        padding: 20px 0;
+    }
+
+    .txt-tilly{
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+    .txt-tilly h3 {
+        font-size: 12px;
+        margin-bottom: 10px;
+        font-weight: 700px;
+    }
+
+    .txt-tilly p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .onde-encontrar {
+        padding: 30px 0 75px;
+    }
+
+    .fale-conosco .select_box {
+        margin-bottom: 30px;
+    }
+}
