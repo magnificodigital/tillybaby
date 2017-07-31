@@ -323,10 +323,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .tilly{
     background: url(assets/images/bg_tilly.jpg);
     width: 100%;
-    max-height: 671px;
-    
+    /*max-height: 671px;*/
     padding: 180px 0;
-    
+    display: block;
+}
+
+.tilly:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .logo-tilly img{
@@ -369,6 +374,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 ------------------------------------------------------*/
 
 .onde-encontrar{
+    display: block;
     padding: 110px 0 75px 0;
 }
 
@@ -470,11 +476,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 ------------------------------------------------------*/
 
 .fale-conosco{
-    background: url(assets/images/bg_fale_conosco.jpg);
+    background-image: url('assets/images/bg_fale_conosco.jpg');
     background-position: right top;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    
+    height: auto;
     padding: 90px 0 120px 0;
 }
 
@@ -723,4 +730,10 @@ div.wpcf7-mail-sent-ok {
     font-weight: normal;
     font-style: normal;
 
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 230px !important;
+    }
 }
